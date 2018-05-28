@@ -6,5 +6,11 @@ public abstract class Fish {
 	{
 		System.out.println("I can swim");
 	}
+	
+	public abstract void size();
+	public abstract void color();
+	public abstract void eat();
+	
+	
 
 }
